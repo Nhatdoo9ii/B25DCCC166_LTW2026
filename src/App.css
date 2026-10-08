@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #373737;
+}
+
+.container {
+    width: 800px;
+    max-width: 90%;
+    margin: 40px auto;
+    background-color: rgb(189, 188, 188);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+.student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.student-form input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filter {
+    margin-top: 25px;
+}
+
+.filter button {
+    margin-right: 10px;
+}
+
+
+.statistics {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #ccc9c9;
+}
+
+
+.student-item {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.student-item p {
+    margin: 6px 0;
+    color: white;
+}
+
+.delete-button {
+    margin-top: 10px;
+}
